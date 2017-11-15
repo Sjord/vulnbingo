@@ -1,0 +1,33 @@
+CSRF, client side request forgery
+SSRF, server side request forgery
+XSS, stored cross site scripting
+XSS, reflected cross site scripting
+SQLi, SQL injection
+XXE, XML External Entity
+HSTS, missing Strict-Tranport-Security
+Clickjacking, can be loaded in iframe
+Brute-force, missing brute-force protection
+Old JavaScript, outdated JavaScript library
+Open redirect, redirect to other website
+Insecure hashes, passwords not correctly hashed
+Version header, server version in headers
+Admin interface, open administrative interface
+Technical errors, error messages with technical details
+HTTP, plaintext HTTP usage
+Cookie flags, session cookie without HttpOnly or Secure
+Directory listing, directory listing enabled
+Weak password, weak passwords used
+File upload, arbitrary file upload
+File download, arbitrary file download
+Git directory, public version control directory
+CORS, insecure CORS configuration
+RCE, command injection
+DoS, denial of service
+phpinfo, phpinfo.php available
+GET/POST, interchangable GET/POST
+Source code, source code disclosure
+X-Forwarded-For, client IP set by header
+unserialize, user input is unserialized
+authorization, missing authorization check
+IDOR, insecure direct object references
+authentication, missing authentication check
