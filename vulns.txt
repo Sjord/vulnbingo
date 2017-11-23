@@ -1,4 +1,4 @@
-CSRF, client side request forgery
+CSRF, cross site request forgery
 SSRF, server side request forgery
 XSS, stored cross site scripting
 XSS, reflected cross site scripting
