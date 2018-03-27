@@ -1,5 +1,6 @@
 from docx import Document
 import random
+import sys
 
 vulns = []
 with open('vulns.txt') as fp:
@@ -22,4 +23,10 @@ for table in doc.tables:
             elif para.text == "description":
                 para.text = description
 
-doc.save("output.docx")
+try:
+    outfile = sys.argv[1]
+    if outfile == "-":
+        outfile = sys.stdout.buffer
+    doc.save(outfile)
+except IndexError:
+    print("Usage: vulnbingo.py [outfile.docx]")
