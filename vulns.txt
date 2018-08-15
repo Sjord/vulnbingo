@@ -31,3 +31,4 @@ unserialize, user input is unserialized
 authorization, missing authorization check
 IDOR, insecure direct object references
 authentication, missing authentication check
+JSONP, cross-site access through JS callback
