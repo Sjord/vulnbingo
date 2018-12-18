@@ -32,3 +32,4 @@ authorization, missing authorization check
 IDOR, insecure direct object references
 authentication, missing authentication check
 JSONP, cross-site access through JS callback
+WS hijack, cross-site access to websockets
