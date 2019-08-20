@@ -4,7 +4,7 @@ XSS, stored cross site scripting
 XSS, reflected cross site scripting
 SQLi, SQL injection
 XXE, XML External Entity
-HSTS, missing Strict-Tranport-Security
+HSTS, missing Strict-Transport-Security
 Clickjacking, can be loaded in iframe
 Brute-force, missing brute-force protection
 Old JavaScript, outdated JavaScript library
